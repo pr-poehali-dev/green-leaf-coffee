@@ -170,7 +170,30 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="values" className="py-20 bg-card">
+      <section id="atmosphere" className="py-20 bg-card">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Атмосфера уюта</h2>
+            <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+              Мягкие диваны, живые растения и тепло натурального дерева создают идеальное место для встреч
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 gap-8 mb-12">
+            <img
+              src="https://cdn.poehali.dev/projects/0d2d001f-1b38-4317-a65e-4b12ec4da5d7/files/48344d17-0bf4-4077-90a4-a6585dda1c52.jpg"
+              alt="Гости в кафе"
+              className="rounded-2xl shadow-xl w-full h-[400px] object-cover"
+            />
+            <img
+              src="https://cdn.poehali.dev/projects/0d2d001f-1b38-4317-a65e-4b12ec4da5d7/files/b61b82cd-509a-4900-bef3-c74a7af5ad7b.jpg"
+              alt="Кофе внутри кафе"
+              className="rounded-2xl shadow-xl w-full h-[400px] object-cover"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="values" className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div className="text-center space-y-3">
@@ -436,10 +459,10 @@ const Index = () => {
                 <div>
                   <h3 className="font-semibold text-lg mb-2">Телефон</h3>
                   <a
-                    href="tel:+79991234567"
+                    href="tel:+79045673481"
                     className="text-muted-foreground hover:text-primary transition-colors text-lg"
                   >
-                    +7 (999) 123-45-67
+                    +7 (904) 567-34-81
                   </a>
                 </div>
               </CardContent>
@@ -535,7 +558,7 @@ const Index = () => {
             <div>
               <h3 className="font-semibold text-lg mb-4">Контакты</h3>
               <div className="space-y-2 text-primary-foreground/80">
-                <p>+7 (999) 123-45-67</p>
+                <p>+7 (904) 567-34-81</p>
                 <p>hello@greenleaf.eco</p>
                 <p>Пн-Вс: 8:00 - 22:00</p>
               </div>
